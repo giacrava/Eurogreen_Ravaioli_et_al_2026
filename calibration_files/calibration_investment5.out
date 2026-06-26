@@ -1,0 +1,56 @@
+:COMSYS After 8861 simulations
+:COMSYS Best payoff is -237.125
+:COMSYS Too many Iterations. Optimization not complete
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=10000
+:RESTART_MAX=10
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=0.0003
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCLIMIT=0
+:MCJUMP=0.05
+:MCBURNIN=0
+:MCDELTA=0.0001
+:MCTEMP=1
+:MCNCHAINS=2
+:MCUPDATEPAIRS=2
+:MCSCHEDULE=0
+:MCOUTLIER=0.05
+:MCXOVER=0.2
+:MCCOOLING=1000
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCGAMMA=1
+:MCRECORD=0
+:MCKNN=0
+:MCEPSILON=0.01
+:MCFTEMP=1
+0.05 <= sens inv i[agri] = 0.05  <= 1
+0.05 <= sens inv i[mining] = 0.149771  <= 1
+0.05 <= sens inv i[manufacturing] = 0.05  <= 1
+0.05 <= sens inv i[petroleum] = 0.05  <= 1
+0.05 <= sens inv i[vehicles] = 0.159928  <= 1
+0.05 <= sens inv i[electricity ind] = 0.05  <= 1
+0.05 <= sens inv i[gas ind] = 0.05  <= 1
+0.05 <= sens inv i[heat ind] = 0.05  <= 1
+0.05 <= sens inv i[water] = 0.781971  <= 1
+0.05 <= sens inv i[construction] = 0.471832  <= 1
+0.05 <= sens inv i[trade] = 0.05  <= 1
+0.05 <= sens inv i[transport] = 0.05  <= 1
+0.05 <= sens inv i[hospitality] = 0.05  <= 1
+0.05 <= sens inv i[ict] = 0.183672  <= 1
+0.05 <= sens inv i[finance] = 0.0534804  <= 1
+0.05 <= sens inv i[realestate] = 0.369339  <= 1
+0.05 <= sens inv i[profserv] = 0.05  <= 1
+0.05 <= sens inv i[public] = 0.05  <= 1
+0.05 <= sens inv i[education] = 0.05  <= 1
+0.05 <= sens inv i[health] = 0.05  <= 1
+0.05 <= sens inv i[households] = 0.315596  <= 1

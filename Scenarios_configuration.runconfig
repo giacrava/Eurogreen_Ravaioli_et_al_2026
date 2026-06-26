@@ -1,0 +1,1266 @@
+SIMULATE>RUNCONFIG_INCLUDE|1
+SIMULATE>RUNCONFIGNAME|Status Quo
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|StatusQuo_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05 G care..
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05GCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 4
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05025Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05025PersGCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.25
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 0505Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr0505PersGCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.5
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|SatusQuoIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_StatusQuo_CareMeanLPRedL_gWothers_ExpInfl13Av0_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_CareMeanLPRedL AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 05 G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr05GCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 4
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 05025Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr05025PersGCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.25
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 0505Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr0505PersGCare_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.5
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|SatusQuoIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_StatusQuo_CareFixLP2010_gWothers_ExpInfl13Av0_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05 G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05G000GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 4
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05025Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05G025GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.25
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05050Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05G050GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.5
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05075Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05G075GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.75
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_NonCare LPIncr 05100Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_NoCare_LPIncr05G100GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|SatusQuoIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_StatusQuo_CareMeanLPRedL_gWothers_ExpInfl13Av0_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_CareMeanLPRedL AND Wage others_ExpInfl13Av0
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 05 G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr05GCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 4
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 05025Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr05025PersGCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.25
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care MeanLPRedL AND Wage others_ExpInfl13Av0_NonCare LPIncr 0505Pers G care
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareMeanLPRedL_gWothers_ExpInfl13Av0_NoCare_LPIncr0505PersGCare_sens
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars_red_CareServ.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[education] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[health] = 0
+SIMULATE>SETVAL|s delta lambda scenario on i[households] = 0
+SIMULATE>SETVAL|act change labour productivity = 5
+SIMULATE>SETVAL|S from delta perc gov c real care services to delta perc lambda = 0.4
+SIMULATE>SETVAL|act exogenous labour productivity = 3
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|s lambda post policy increase = 0.5
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+MENU>RUN_SENSITIVITY|o
+
+SIMULATE>RUNCONFIG_INCLUDE|0
+SIMULATE>RUNCONFIGNAME|HighRoadIlk2030_Care FixedLP AND Wage others_ExpInfl13Av0_CarbonTax300
+SIMULATE>DATA|
+SIMULATE>READCIN|
+SIMULATE>BASED|
+SIMULATE>SAVELIST|
+SIMULATE>RUNNAME|26_04_12_HighRoad_CareFixLP2010_gWothers_ExpInfl13Av0_CT300_1run
+SIMULATE>SENSITIVITY|MonteCarloRuns.vsc
+SIMULATE>SENSSAVELIST|SaveListMC_SCvars.lst
+SIMULATE>PAYOFF_REPORT|0
+SIMULATE>GENERATE_LINEARIZED|0
+SIMULATE>RESUME|0
+SIMULATE>PROCESS_CIN_AS_DP|0
+SIMULATE>OVERWRITE_GET_CONST|1
+SIMULATE>KALMAN|0
+SIMULATE>KALMANREPORT|0
+SIMULATE>KALMANSTEPS|0
+SIMULATE>ADDCIN|calibration_files\calibration_investment5.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_a_powell.out
+SIMULATE>ADDCIN|calibration_files\skillsupply_b_powell.out
+SIMULATE>ADDCIN|calibration_files\male_share_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\skilldemand_powell_modelsecs.out
+SIMULATE>ADDCIN|calibration_files\investment_feb26.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_2026_noU2.out
+SIMULATE>ADDCIN|calibration_files\MarkUp2ndCalibrationLimits.out
+SIMULATE>ADDCIN|calibration_files\mar28_innov_newbound2_newboundsens_sens.out
+SIMULATE>ADDCIN|calibration_files\wage_high.out
+SIMULATE>ADDCIN|calibration_files\calib_lfpr_shocks_noU2noLFPR_recalib.out
+SIMULATE>SETVAL|act change gov consumption = 5
+SIMULATE>SETVAL|S change government consumption i[education] = 1463000
+SIMULATE>SETVAL|S change government consumption i[health] = 2179000
+SIMULATE>SETVAL|s time shift end = 20
+SIMULATE>SETVAL|act deficit rule = 0
+SIMULATE>SETVAL|act change gov investment = 2
+SIMULATE>SETVAL|act change baseline gov consumption = 7
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[education] = 1292000
+SIMULATE>SETVAL|L tot abs target gov bs 7 people i[health] = 1772000
+SIMULATE>SETVAL|act pnrr = 0
+SIMULATE>SETVAL|act exogenous labour productivity = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[education] = 1
+SIMULATE>SETVAL|s exogenous lambda scenario on i[health] = 1
+SIMULATE>SETVAL|s time exogenous lambda = 0
+SIMULATE>SETVAL|act wage growth as average = 1
+SIMULATE>SETVAL|s time wage growth as average = 0
+SIMULATE>SETVAL|s wage growth as average on i[education] = 1
+SIMULATE>SETVAL|s wage growth as average on i[health] = 1
+SIMULATE>SETVAL|act inflation dependent exports = 1
+SIMULATE>SETVAL|average inflation = 0
+SIMULATE>SETVAL|elast p exp = 1.3
+SIMULATE>SETVAL|s time policy start = 16
+SIMULATE>SETVAL|act carbon tax = 2
+SIMULATE>SETVAL|s carbon tax max = 300
+MENU>RUN|o
+

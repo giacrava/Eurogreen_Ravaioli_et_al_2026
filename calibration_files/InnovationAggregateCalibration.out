@@ -1,0 +1,79 @@
+:COMSYS After 4533 simulations
+:COMSYS Best payoff is 395.475
+:COMSYS Too many Iterations. Optimization not complete
+:OPTIMIZER=Powell
+:STOCHASTIC
+:SENSITIVITY=Payoff Value=1.92
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=100
+:SIMS_MAX=10000
+:RESTART_MAX=10
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=0.0003
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCLIMIT=0
+:MCJUMP=0.05
+:MCBURNIN=0
+:MCDELTA=0.0001
+:MCTEMP=1
+:MCNCHAINS=2
+:MCUPDATEPAIRS=2
+:MCSCHEDULE=0
+:MCOUTLIER=0.05
+:MCXOVER=0.2
+:MCCOOLING=1000
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCGAMMA=1
+:MCRECORD=0
+:MCKNN=0
+:MCEPSILON=0.01
+:MCFTEMP=1
+0 <= initial prob labour saving[agri] = 0  <= 10
+0 <= initial prob labour saving[mining] = 0.959745  <= 10
+0 <= initial prob labour saving[manufacturing] = 0.881872  <= 10
+0 <= initial prob labour saving[petroleum] = 0.3  <= 10
+0 <= initial prob labour saving[vehicles] = 0.418754  <= 10
+0 <= initial prob labour saving[electricity ind] = 0.252  <= 10
+0 <= initial prob labour saving[gas ind] = 0.804  <= 10
+0 <= initial prob labour saving[heat ind] = 0.959745  <= 10
+0 <= initial prob labour saving[water] = 0.959745  <= 10
+0 <= initial prob labour saving[construction] = 0  <= 10
+0 <= initial prob labour saving[trade] = 0.959745  <= 10
+0 <= initial prob labour saving[transport] = 0.3  <= 10
+0 <= initial prob labour saving[hospitality] = 0.3  <= 10
+0 <= initial prob labour saving[ict] = 0  <= 10
+0 <= initial prob labour saving[finance] = 0.959745  <= 10
+0 <= initial prob labour saving[realestate] = 0.959745  <= 10
+0 <= initial prob labour saving[profserv] = 0  <= 10
+0 <= initial prob labour saving[public] = 0.959745  <= 10
+0 <= initial prob labour saving[education] = 0  <= 10
+0 <= initial prob labour saving[health] = 1.0785  <= 10
+0 <= initial prob labour saving[households] = 0.5  <= 10
+0 <= initial prob input saving[agri] = 0.1567  <= 10
+0 <= initial prob input saving[mining] = 0.819122  <= 10
+0 <= initial prob input saving[manufacturing] = 0  <= 10
+0 <= initial prob input saving[petroleum] = 0.063303  <= 10
+0 <= initial prob input saving[vehicles] = 0.1  <= 10
+0 <= initial prob input saving[electricity ind] = 0  <= 10
+0 <= initial prob input saving[gas ind] = 0.1  <= 10
+0 <= initial prob input saving[heat ind] = 0.1  <= 10
+0 <= initial prob input saving[water] = 0.1  <= 10
+0 <= initial prob input saving[construction] = 0  <= 10
+0 <= initial prob input saving[trade] = 1.12332  <= 10
+0 <= initial prob input saving[transport] = 0  <= 10
+0 <= initial prob input saving[hospitality] = 1.07112  <= 10
+0 <= initial prob input saving[ict] = 0.1  <= 10
+0 <= initial prob input saving[finance] = 0  <= 10
+0 <= initial prob input saving[realestate] = 0  <= 10
+0 <= initial prob input saving[profserv] = 0.759745  <= 10
+0 <= initial prob input saving[public] = 0.933347  <= 10
+0 <= initial prob input saving[education] = 0.287998  <= 10
+0 <= initial prob input saving[health] = 0  <= 10
+0 <= initial prob input saving[households] = 1.15974  <= 10
